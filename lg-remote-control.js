@@ -7,7 +7,7 @@ class LgRemoteControl extends LitElement {
     static get magiogoIcon() {
         return html`<svg
            version="1.1"
-           id="svg9"
+           id="svg135"
            width="30"
            height="30"
            viewBox="0 0 30 30"
@@ -19,9 +19,9 @@ class LgRemoteControl extends LitElement {
            xmlns="http://www.w3.org/2000/svg"
            xmlns:svg="http://www.w3.org/2000/svg">
           <defs
-             id="defs13" />
+             id="defs139" />
           <sodipodi:namedview
-             id="namedview11"
+             id="namedview137"
              pagecolor="#ffffff"
              bordercolor="#000000"
              borderopacity="0.25"
@@ -30,43 +30,44 @@ class LgRemoteControl extends LitElement {
              inkscape:pagecheckerboard="0"
              inkscape:deskcolor="#d1d1d1"
              showgrid="false"
-             inkscape:zoom="27.466667"
-             inkscape:cx="15"
-             inkscape:cy="15"
+             inkscape:zoom="2.1517963"
+             inkscape:cx="-9.7592881"
+             inkscape:cy="71.103385"
              inkscape:window-width="1920"
              inkscape:window-height="1027"
              inkscape:window-x="-8"
              inkscape:window-y="-8"
              inkscape:window-maximized="1"
-             inkscape:current-layer="g15" />
+             inkscape:current-layer="g141" />
           <g
              inkscape:groupmode="layer"
              inkscape:label="Image"
-             id="g15">
+             id="g141">
             <image
                width="30"
                height="30"
                preserveAspectRatio="none"
                xlink:href="data:image/png;base64,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
-        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
+        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
+        QmCC
         "
-               id="image17" />
+               id="image143" />
           </g>
         </svg>
      `;
