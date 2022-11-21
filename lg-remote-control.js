@@ -5,26 +5,70 @@ var css = LitElement.prototype.css;
 class LgRemoteControl extends LitElement {
     
     static get magiogoIcon() {
-        return html`<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
-            <style type="text/css">
-            .st0{fill:var(--remote-text-color);}
-            </style>
-            <g transform="translate(0.000000,168.000000) scale(0.100000,-0.100000)">
-            <path class="st0" d="M192.9,1646.8c-2.4-1.6-2.1-9.3,0.7-18.7c1-3.1-0.2-4.2-8.7-7.7c-8.7-3.5-9.8-4.5-9.3-8.6
-            c0.7-5.8,5.9-6.8,15.5-3c3.8,1.6,7.2,2.8,7.5,2.8c0.5,0,2.1-4,3.7-8.7c3.3-10.1,7.5-13.3,12.4-9.8c3,2.3,3,3.3,1.2,10.1
-            c-1,4-2.4,8.7-3.1,10.3c-0.7,2.1,1,3.5,7.3,5.8c12.2,4.4,13.6,5.4,13.6,10c0,5.4-6.6,6.5-17.8,2.6c-4.5-1.6-8.2-2.8-8.4-2.8
-            s-1.4,3.3-2.4,7.5C201.6,1647.8,198.7,1650.4,192.9,1646.8z"/>
-            <path class="st0" d="M97.2,1581.1c-19.7-5.4-30.2-13.4-30.2-23.1c0-5.9,1.4-6.6,7.9-4c3.3,1.2,3.3,1.4-0.9,3.1l-4.4,1.6l5.8,3.5
-            c10.7,6.5,29.9,9.8,51.5,8.7c22.2-1,35.4-4,51.9-12c20.1-9.8,34.9-28.8,34.9-44.9c0-6.8-6.6-18.7-13.3-23.7
-            c-13.1-10-34.9-17.3-38.6-12.7c-1,1.2-3.8,8.6-6.3,16.2c-2.4,7.7-4.9,15.4-5.6,16.9c-1.6,4,9.6,7,23.2,6.3l10-0.5l-0.5-5.6
-            c-0.7-7,3.1-7.9,7.3-1.9c4.2,5.8,3.5,12.4-1.7,17.3c-3.8,3.5-6.1,4.2-16.1,4.2c-6.5,0-15-0.7-19-1.4l-7.5-1.6l-4,9.4
-            c-2.3,5.1-5.9,10.8-8,12.6c-3.7,3.3-3.7,3.3-3.7-1.9c0-2.8,0.9-9.8,2.1-15.4l1.9-10.1l-5.1-3.5c-11.9-8.4-19.9-18.2-19.9-23.7
-            c0-8.9,12.4-18.5,32.8-25.7c6.8-2.3,10.1-4.7,12.6-8.9c1.9-3.1,4.2-5.8,5.1-5.8c4.2,0,7.2,2.4,7.2,6.1c0,3.5,1.2,4.2,10.3,5.8
-            c30.2,5.4,51.2,28.5,48.5,53.8c-2.3,22.5-19.6,40.5-50.6,53.1C149.2,1583.4,117.8,1586.5,97.2,1581.1z M142.4,1493.4l4.4-15.4
-            l-5.8-0.5c-6.5-0.5-24.4,7.5-27.6,12.2c-1.4,2.3-1,3.8,1.6,6.6c3.5,4,17.6,12,21.1,12.2C137.2,1508.6,140,1501.8,142.4,1493.4z"/>
-            </g>
-            </svg>
+        return html`<svg
+           version="1.1"
+           id="svg9"
+           width="30"
+           height="30"
+           viewBox="0 0 30 30"
+           sodipodi:docname="unnamed.svg"
+           inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+           xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+           xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns="http://www.w3.org/2000/svg"
+           xmlns:svg="http://www.w3.org/2000/svg">
+          <defs
+             id="defs13" />
+          <sodipodi:namedview
+             id="namedview11"
+             pagecolor="#ffffff"
+             bordercolor="#000000"
+             borderopacity="0.25"
+             inkscape:showpageshadow="2"
+             inkscape:pageopacity="0.0"
+             inkscape:pagecheckerboard="0"
+             inkscape:deskcolor="#d1d1d1"
+             showgrid="false"
+             inkscape:zoom="27.466667"
+             inkscape:cx="15"
+             inkscape:cy="15"
+             inkscape:window-width="1920"
+             inkscape:window-height="1027"
+             inkscape:window-x="-8"
+             inkscape:window-y="-8"
+             inkscape:window-maximized="1"
+             inkscape:current-layer="g15" />
+          <g
+             inkscape:groupmode="layer"
+             inkscape:label="Image"
+             id="g15">
+            <image
+               width="30"
+               height="30"
+               preserveAspectRatio="none"
+               xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+        jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOSSURBVEhLvVY5L3RRGH5mxk5IbIl9CxIaRGyN
+        RIJCJxEFif8gOsVXiVaj0Sj0OlEohEIngoIgllhiiX3f5n7zvN+cyb3nnrkfBU/y5N4573be5Zy5
+        vuHh4U8AvhB/E5Y/GAz67LQsy/H0oq7zHVt/SAl2hhYdTy/qOt+xdQX+LbLUssPfpm9oaCgYanbU
+        4eLu8vLyEBMTE16JjtTUVHx8fGBjYwM+n+e8Wr7BwUHPwEVFRWhtbcXOzo7sVEdsbCzy8/NRUFCA
+        tLQ0vLy8YGJiAmdnZ2ENIyzPHnPXDQ0NCAQCyMzMdMgyMjJQW1uL9vZ2VFdXS7Zc50YaGxsduiZK
+        j00Ckg5TUlJki+np6ZJRZWWlBGtubpYW+P1+kSvwd1ZWFsrLy40+ScaUjFXD7UxISEBNTU1EmRnd
+        3t7i6upKZF6Ii4tDfX29VMrkm/6iTjVLrAaKGWRnZ+Px8RHT09MYGxvD/v6+yExgubk5tsLkmzT2
+        mIHKysqkbLm5uVJiBcqPj48xPj6OqakpqYIOZkw91Sq7b0Vj4JaWFsTHx6OwsBBJSUlhd/+C2rm6
+        uorR0VHMzc3JMVJgxgQ33tTUJBnqtq5SV1RUoLS0VI6HfnZpoOu/vb1hdnYWIyMjshGCGSuUlJTI
+        EOp2jsBEV1cXcnJyjBeAKbDi9fU1JicnpQXn5+cRfZIV1PUdpWaGPJ/RYNeNxt3dXSwsLMiFs729
+        LTw9PXXpOQLz1pmZmcHd3V04lBt2fZ0cyL6+PjmGDw8PeHp6Em5tbbl0XT1eWlrC3t5epFx20EDX
+        J3kKuru70dnZieTkZElABWDgw8NDl41rqmnE4LwolIGCrsuz2tbWhp6eHpkLBfpQYKnpQ7c1XiDr
+        6+sSmBcGL4rX11dxQgPKOXh1dXUYGBhAVVVVRKbIwNSjj8vLS4dvReM5pmB+fl4cMiiD39/fi6y4
+        uBj9/f0yqRxG3ZZUpTb1VjHqlXlwcCCGBH8fHR3Jeezo6HDcZCY8Pz+LPgdM96tozFhxcXERn5/8
+        CIVkfHFxIX/ym5ub8q5kdtCOAXmsdH92ega+ubnB8vKyvHPQ1Lqa1LW1NUcbSGbLU/H+/h5ZMzEQ
+        usj/hF74SWpUODk5QWJioji0r7NcfHITzJ5DxGDUX1lZceia6Ovt7fX89CGo+FX851tLEPInH/Su
+        xutUu/wKTfY6qefZ45+kZGwS/CQZkxlboZdfpWVZ1l9bamlthFoL2wAAAABJRU5ErkJggg==
+        "
+               id="image17" />
+          </g>
+        </svg>
      `;
     }
     
